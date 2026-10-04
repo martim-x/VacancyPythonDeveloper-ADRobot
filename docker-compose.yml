@@ -1,0 +1,6 @@
+services:
+  # 10 запросов к файлу 100 МБ, адрес зашит в app/main.py.
+  # Свой адрес: docker compose run --rm speedtest https://ash-speed.hetzner.com/1GB.bin
+  speedtest:
+    build: .
+    image: speedtest-cli:local

@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Локальные артефакты замеров
+data/
+*.json
+
+# Секреты
+.env
+.env.*
+*.key
+
+.DS_Store
